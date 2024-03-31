@@ -1,0 +1,82 @@
+:root {
+    --Orange: hsl(25, 97%, 53%);
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --MediumGrey: hsl(216, 12%, 54%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+    --secondary: hsl(213deg, 20%, 22%);
+}
+
+html {
+    margin: 0;
+    color: white;
+}
+
+button {
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+a {
+    color: hsl(228, 45%, 44%);
+}
+
+body {
+    background-color: hsl(216, 12%, 8%);
+}
+
+.attribution {
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 95vh;
+}
+
+.ratings {
+    display: flex;
+    flex-direction: row;
+}
+
+.rating {
+    background-color: var(--secondary);
+    border: black 1px;
+    border-radius: 100%;
+    color: white;
+    margin: 2%;
+    padding: 3% 4%;
+}
+
+.rating:hover {
+    background-color: var(--LightGrey);
+}
+
+
+.rating-container {
+    width: 40%;
+    background-color: hsl(213, 19%, 18%);
+}
+
+.rating-content {
+    margin: 5%
+}
+
+.star-icon {
+    margin: 2%;
+    padding: 3%;
+    border: 1px solid var(--secondary);
+    border-radius: 100%;
+    background-color: var(--secondary)
+}
