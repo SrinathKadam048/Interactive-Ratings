@@ -79,16 +79,24 @@ body {
     background-color: var(--LightGrey);
 }
 
+.rating-choice {
+    background-color: var(--secondary);
+    width: 100%;
+    border-radius: 20px;
+    padding: 1% 5%;
+    color: var(--Orange);
+}
 
 .rating-container {
     width: 30%;
     background-color: hsl(213, 19%, 18%);
     border-radius: 10%;
-    background-image: linear-gradient(var(--DarkBlue), var(--VeryDarkBlue));
+    background-image: linear-gradient(var(--DarkBlue), hsl(213, 12%, 10%));
 }
 
 .rating-content {
     margin: 8%;
+    display: block;
 }
 
 .star-icon {
@@ -110,6 +118,23 @@ body {
     border-radius: 20px;
 }
 
+.phone-image {
+    width: 30%;
+    margin: 4%;
+}
+
+.thanks-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .thanks-content {
     display: none;
+    margin: 4%;
+}
+
+.thanks-para-content {
+    text-align: center;
+    color: var(--MediumGrey);
 }
